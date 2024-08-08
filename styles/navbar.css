@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -63,5 +64,11 @@ body {
   .burger-icon {
     display: block;
     color: white;
+  }
+  .navber {
+    /* display: flex; */
+    justify-content: space-between;
+    /* align-items: center; */
+    margin: 3.25rem 1.25rem;
   }
 }
