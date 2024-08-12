@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
+/****** Banner-Section *********/
 .banner-section {
   display: flex;
   justify-content: center;
@@ -14,10 +15,9 @@
   font-weight: 900;
   line-height: 120%;
   letter-spacing: 0%;
-  text-align: right;
-  max-width: 50%;
+  text-align: left;
+  max-width: 6dvb;
   margin-bottom: 1.75rem;
-  margin-left: 1rem;
 }
 .style-text {
   font-family: Miama, sans-serif;
@@ -69,13 +69,11 @@
   letter-spacing: 0%;
   text-align: left;
 }
-.banner-image {
-  /* background-image: url(../images/Images\ 2.png); */
-  /* z-index: -1; */
-}
+
 .banner-img {
   margin-top: 2rem;
 }
+/****** Transparent-card-Section *********/
 .card-1 {
   box-sizing: border-box;
   border: 1px solid rgba(255, 255, 255, 0.1);
@@ -112,6 +110,10 @@
   width: 2.5rem;
   height: 2.5rem;
   border-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .card-para {
   color: rgba(239, 237, 232, 0.65);
@@ -135,7 +137,7 @@
 .card-para-1 {
   color: rgba(255, 255, 255, 0.65);
   font-family: Inter;
-  font-size: 13px;
+  font-size: 0.81rem;
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 1px;
@@ -152,5 +154,133 @@
   letter-spacing: 1px;
   text-align: left;
 }
-@media screen and (max-width: 578px) {
+
+@media screen and (max-width: 576px) {
+  .banner-section {
+    display: block;
+    width: 100%;
+  }
+  .bannner-content {
+    width: 100%;
+  }
+  .banner-title {
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 2.43rem;
+    font-weight: 900;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: left;
+    max-width: 50%;
+    margin-bottom: 1.75rem;
+    margin-left: 1rem;
+  }
+  .banner-description {
+    color: rgba(255, 255, 255, 0.5);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    margin-bottom: 1.75rem;
+    width: 75%;
+    margin-left: 1rem;
+  }
+  .card-1 {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+    backdrop-filter: blur(0.625rem);
+    background: rgba(48, 48, 48, 0.54);
+    padding: 1rem;
+    width: 11rem;
+    height: 4.625rem;
+    position: absolute;
+    top: 35rem;
+    right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-title-1 {
+    font-size: 1.5rem;
+    margin-top: 6rem;
+  }
+  .card-para-1 {
+    color: rgba(255, 255, 255, 0.65);
+    font-family: Inter;
+    font-size: 0.614rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 6rem;
+  }
+  .banner-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .btn {
+    padding: 1rem 2.5rem;
+    border-radius: 42px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    margin-left: 0.875rem;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0%;
+    text-align: left;
+    cursor: pointer;
+  }
+  .btn-color {
+    background: rgb(230, 83, 60);
+    border: none;
+    color: rgb(255, 255, 255);
+  }
+  .image-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card-2 {
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 0.75rem;
+    backdrop-filter: blur(0.625rem);
+    background: rgba(48, 48, 48, 0.54);
+    display: flex;
+    padding: 1.25rem;
+    width: 11rem;
+    height: 5rem;
+    position: absolute;
+    top: 50rem;
+    left: 3rem;
+    bottom: 4rem;
+  }
+  .card-para {
+    color: rgba(239, 237, 232, 0.65);
+    font-family: Inter;
+    font-size: 0.75rem;
+    font-weight: 400;
+    /* line-height: 1.5rem; */
+    /* letter-spacing: 0.5px; */
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+  .card-title {
+    color: rgb(250, 250, 249);
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-weight: 900;
+    /* line-height: 24px; */
+    /* letter-spacing: 0.3px; */
+    text-align: left;
+    margin-top: -1rem;
+  }
 }
