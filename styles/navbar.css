@@ -9,7 +9,9 @@ body {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   background: black;
-  width: 100vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 /* Header-Section */
 .header-section {
@@ -72,13 +74,14 @@ body {
     width: 100vw;
   }
   .header-section {
-    background: linear-gradient(
+    /* background: linear-gradient(
       180deg,
       rgb(17, 17, 17),
       rgba(119, 119, 119, 0) 150%
-    );
-    width: 100%;
+    ); */
+    width: 100vw;
     overflow: hidden;
+    /* border: 1px solid salmon; */
   }
 
   .nav-items {
