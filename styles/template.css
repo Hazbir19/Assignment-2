@@ -94,6 +94,7 @@
 @media screen and (max-width: 576px) {
   .tamp-section {
     /* flex-direction: column; */
+    overflow: hidden;
   }
   .tamp-content {
     width: 100%;
