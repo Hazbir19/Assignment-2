@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100%;
+  width: 100vw;
   margin-top: 6.25rem;
 }
 .tamp-card {
@@ -14,6 +14,7 @@
   width: 80%;
   padding: 2.5rem;
   height: 23.18rem;
+  /* border: 1px solid salmon; */
 }
 .tamp-content {
   width: 60%;
@@ -70,6 +71,7 @@
   /* align-items: center; */
   flex-direction: column;
   margin-top: 4.875rem;
+  /* border: 1px solid salmon; */
 }
 .bmi-title {
   color: rgb(255, 255, 255);
@@ -79,6 +81,7 @@
   line-height: 120%;
   letter-spacing: 0%;
   text-align: left;
+  /* border: 1px solid salmon; */
 }
 .bmi-descript {
   color: rgba(255, 255, 255, 0.5);
@@ -98,9 +101,12 @@
   .tamp-section {
     /* flex-direction: column; */
     overflow: hidden;
+    /* border: 1px solid salmon; */
+    width: 100%;
   }
   .tamp-content {
     width: 100%;
+    /* border: 1px solid salmon; */
   }
   .tamp-card {
     flex-direction: column;
@@ -139,7 +145,8 @@
     height: 3.375rem;
   }
   .bmi-content-title {
-    overflow: hidden;
+    overflow-x: hidden;
+    width: 100%;
   }
   .bmi-title {
     margin-left: 2rem;

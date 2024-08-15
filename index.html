@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/banner.css">
     <link rel="stylesheet" href="styles/mainSction.css">
     <link rel="stylesheet" href="styles/template.css">
+    <link rel="stylesheet" href="styles/BMI.css">
     <link href="https://fonts.cdnfonts.com/css/miama" rel="stylesheet">
 
 </head>
@@ -111,6 +112,59 @@
             <h2 class="bmi-title">BMI Calculator</h2>
             <p class="bmi-descript">It then categorizes your BMI into one of four weight status categories: underweight,
                 normal weight, overweight, or obese, helping you understand your health risk.</p>
+        </div>
+        <div class="bmi-content">
+            <div class="bmi-chart">
+                <h2 class="chat-title">BMI Calculator Chart</h2>
+                <table class="BMI-chart-table">
+                    <tr>
+                        <th>BMI</th>
+                        <th>Weight Status</th>
+
+                    </tr>
+                    <tr>
+                        <td>Below 18.5</td>
+                        <td>Underweight</td>
+                    </tr>
+                    <tr>
+                        <td>18.5 - 24.9</td>
+                        <td>Healthy</td>
+                    </tr>
+                    <tr>
+                        <td>25.0 - 29.9</td>
+                        <td>Overweight</td>
+                    </tr>
+                    <tr>
+                        <td>30.0 - and Above</td>
+                        <td>Obese</td>
+                    </tr>
+                </table>
+            </div>
+            <div class="calculate-bmi">
+                <h2 class="cal-title">Calculate your BMI</h2>
+                <p class="cal-describe">To calculate your BMI, divide your weight in kilograms by the square of your
+                    height in meters.</p>
+                <div class="bmi-calculator-content">
+                    <form action="#" class="bmi-calculator">
+                        <input type="number" class="form-fields" placeholder="Height/cm">
+                        <input type="number" class="form-fields" placeholder="Weight/kg">
+                        <input type="number" class="form-fields" placeholder="Age">
+                        <select name="sex" id="gender" class="form-fields">
+                            <option value="Sex">Sex</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+
+                        </select>
+                        <select name="activity factor" id="activity-factor" class="form-fields">
+                            <option value="Select an activity factor">Select an activity factor</option>
+                            <option value=""></option>
+                            <option value=""></option>
+
+                        </select>
+                    </form>
+                </div>
+                <button class="cal-btn btn btn-color">Calculate</button>
+            </div>
         </div>
     </main>
     <footer></footer>

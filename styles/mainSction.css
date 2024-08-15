@@ -3,6 +3,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* border: 1px solid salmon; */
 }
 .main-Section {
   width: 75rem;
@@ -70,7 +71,7 @@ main {
 @media screen and (max-width: 576px) {
   main {
     display: block;
-    /* overflow: hidden; */
+    overflow: hidden;
     width: 100vw;
     /* border: 1px solid salmon; */
   }
