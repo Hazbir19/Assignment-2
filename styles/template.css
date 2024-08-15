@@ -92,6 +92,9 @@
   margin-top: 0.875rem;
 }
 @media screen and (max-width: 576px) {
+  body {
+    overflow-x: hidden;
+  }
   .tamp-section {
     /* flex-direction: column; */
     overflow: hidden;
@@ -142,5 +145,9 @@
   }
   .bmi-descript {
     margin-left: 2rem;
+  }
+  .tamp-img {
+    object-fit: none;
+    object-position: 65% 25%;
   }
 }
