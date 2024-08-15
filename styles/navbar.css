@@ -21,6 +21,7 @@ body {
     rgba(119, 119, 119, 0) 150%
   );
   width: 100vw;
+  overflow: hidden;
 }
 /* Navbar */
 .navber {
