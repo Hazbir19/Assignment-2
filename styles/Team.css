@@ -1,0 +1,104 @@
+.team-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-title {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 5.5rem;
+}
+.team-descript {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: center;
+  margin-top: 0.875rem;
+}
+.team-mem-profile {
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 3.625rem;
+}
+.team-member {
+  width: 20.4375rem;
+  height: 17rem;
+  position: relative;
+  margin: 1.25rem;
+  border-radius: 1.125rem;
+}
+.team-member1 {
+  background: url("../images/trainer1.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.team-member2 {
+  background: url("../images/trainer2.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.team-member3 {
+  background: url("../images/trainer3.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.team-member4 {
+  background: url("../images/trainer4.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.team-member5 {
+  background: url("../images/trainer5.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.team-member6 {
+  background: url("../images/trainer6.png");
+  background-repeat: no-repeat;
+
+  background-size: cover;
+}
+.name {
+  color: white;
+  font-weight: 700;
+  position: absolute;
+  top: 14rem;
+  margin-left: 1rem;
+}
+.profession {
+  color: white;
+  font-weight: 100;
+  position: absolute;
+  top: 15rem;
+  margin-left: 1rem;
+}
+@media screen and (max-width: 576px) {
+  .team-mem-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin-bottom: 3rem;
+  }
+  .team-title {
+    font-size: 1.5rem;
+  }
+}
