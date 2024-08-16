@@ -1,0 +1,126 @@
+.footer {
+  background: rgba(255, 255, 255, 0.1);
+  width: 100%;
+  margin-top: 5.5rem;
+  /* margin-bottom: 5rem; */
+}
+.footer-content {
+  padding-top: 4.125rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-intro {
+  width: 40%;
+  margin-bottom: 5rem;
+}
+.footer-title {
+  color: rgb(230, 83, 60);
+  font-family: Inter;
+  font-size: 4.375rem;
+  font-weight: 800;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  /* margin-bottom: 5rem; */
+}
+.footer-describe {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  width: 65%;
+  margin-top: 1.25rem;
+}
+.footer-item1 {
+  margin-right: 10rem;
+  /* margin-bottom: 5rem; */
+}
+
+.get-title {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.get-element {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+  list-style: none;
+  margin: 1rem 0rem;
+}
+.copy-right {
+  margin-top: 5rem;
+  padding: 5rem 0rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.line {
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  /* padding: 2px; */
+  margin: 0 auto;
+  width: 65%;
+}
+.copy-text {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+  margin-top: 2.25rem;
+}
+
+@media screen and (max-width: 576px) {
+  .footer-content {
+    flex-direction: column;
+  }
+  .footer-item1 {
+    margin-right: 0rem;
+    /* margin-bottom: 5rem; */
+  }
+  .footer-intro {
+    width: 100%;
+  }
+  .footer-title {
+    margin-left: 1rem;
+  }
+  .footer-describe {
+    width: 80%;
+    margin-left: 1rem;
+  }
+  .get-title {
+    margin: 0rem -17rem;
+  }
+
+  .get-element {
+    margin: 1rem -17rem;
+  }
+
+  .copy-right {
+    align-items: start;
+  }
+  .line {
+    width: 90%;
+    margin-top: -7rem;
+  }
+  .copy-text {
+    text-align: left;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+  }
+}
